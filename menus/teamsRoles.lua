@@ -1,0 +1,38 @@
+function ms.openTeams(n)
+    id.teams[1][n]=tfm.exec.addImage("173fe652833.png",":100",0,0,n)
+    ui.addTextArea(5, "<p align='center'><b><font size='20' color='#14004a'>"..text[n].h, n, 497, 200, 160, 30, 0x0, 0x0, 0, true)
+    ui.addTextArea(7, "<a href='event:h'>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", n, 497, 200, 160, 30, 0x0, 0x0, 0, true)
+    ui.addTextArea(6, "<p align='center'><b><font size='20' color='#4a0000'>"..text[n].v, n, 147, 200, 160, 30, 0x0, 0x0, 0, true)
+    ui.addTextArea(8, "<a href='event:v'>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", n, 147, 200, 160, 30, 0x0, 0x0, 0, true)
+end
+
+function ms.openRoles(n)
+    id.teams[1][n]=tfm.exec.addImage("173fe3e582f.png",":100",260,100,n)
+    ui.addTextArea(23, "<p align='center'><b><font size='15' color='#000000'>"..text[n].roles.a, n, 280, 121, 100, 25, 0x0, 0x0, 0, true)
+    ui.addTextArea(5, "<p align='center'><b><font size='15' color='#311d13'><D>"..text[n].roles.a, n, 279, 120, 100, 25, 0x0, 0x0, 0, true)
+    ui.addTextArea(24, "<p align='center'><b><font size='15' color='#000000'>"..text[n].roles.p, n, 280, 185, 100, 25, 0x0, 0x0, 0, true)
+    ui.addTextArea(6, "<p align='center'><b><font size='15' color='#311d13'><D>"..text[n].roles.p, n, 279, 184, 100, 25, 0x0, 0x0, 0, true)
+    ui.addTextArea(25, "<p align='center'><b><font size='15' color='#000000'>"..text[n].roles.he, n, 280, 249, 100, 25, 0x0, 0x0, 0, true)
+    ui.addTextArea(7, "<p align='center'><b><font size='15' color='#311d13'><D>"..text[n].roles.he, n, 279, 248, 100, 25, 0x0, 0x0, 0, true)
+    ui.addTextArea(26, "<p align='center'><b><font size='15' color='#000000'>"..text[n].roles.w, n, 428, 121, 100, 25, 0x0, 0x0, 0, true)
+    ui.addTextArea(8, "<p align='center'><b><font size='15' color='#311d13'><D>"..text[n].roles.w, n, 427, 120, 100, 25, 0x0, 0x0, 0, true)
+    ui.addTextArea(27, "<p align='center'><b><font size='15' color='#000000'>"..text[n].roles.c, n, 428, 185, 100, 25, 0x0, 0x0, 0, true)
+    ui.addTextArea(9, "<p align='center'><b><font size='15' color='#311d13'><D>"..text[n].roles.c, n, 427, 184, 100, 25, 0x0, 0x0, 0, true)
+    ui.addTextArea(28, "<p align='center'><b><font size='15' color='#000000'>"..text[n].roles.i, n, 428, 249, 100, 25, 0x0, 0x0, 0, true)
+    ui.addTextArea(10, "<p align='center'><b><font size='15' color='#311d13'><D>"..text[n].roles.i, n, 427, 248, 100, 25, 0x0, 0x0, 0, true)
+
+    ui.addTextArea(17, "<p align='center'><b><a href='event:a'>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", n, 279, 120, 100, 25, 0x0, 0x0, 0, true)
+    ui.addTextArea(18, "<p align='center'><b><a href='event:p'>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", n, 279, 184, 100, 25, 0x0, 0x0, 0, true)
+    ui.addTextArea(19, "<p align='center'><b><a href='event:he'>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", n, 279, 248, 100, 25, 0x0, 0x0, 0, true)
+    ui.addTextArea(20, "<p align='center'><b><a href='event:w'>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", n, 427, 120, 100, 25, 0x0, 0x0, 0, true)
+    ui.addTextArea(21, "<p align='center'><b><a href='event:c'>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", n, 427, 184, 100, 25, 0x0, 0x0, 0, true)
+    ui.addTextArea(22, "<p align='center'><b><a href='event:i'>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", n, 427, 248, 100, 25, 0x0, 0x0, 0, true)
+
+    ui.addTextArea(11, "<a href='event:roleHelp_a'>\n\n\n\n\n\n\n\n\n\n\n", n, 364, 149, 15, 15, 0x0, 0x0, 0, true)
+    ui.addTextArea(12, "<a href='event:roleHelp_p'>\n\n\n\n\n\n\n\n\n\n\n", n, 364, 214, 15, 15, 0x0, 0x0, 0, true)
+    ui.addTextArea(13, "<a href='event:roleHelp_he'>\n\n\n\n\n\n\n\n\n\n\n", n, 364, 279, 15, 15, 0x0, 0x0, 0, true)
+    ui.addTextArea(14, "<a href='event:roleHelp_w'>\n\n\n\n\n\n\n\n\n\n\n", n, 512, 149, 15, 15, 0x0, 0x0, 0, true)
+    ui.addTextArea(15, "<a href='event:roleHelp_c'>\n\n\n\n\n\n\n\n\n\n\n", n, 512, 214, 15, 15, 0x0, 0x0, 0, true)
+    ui.addTextArea(16, "<a href='event:roleHelp_i'>\n\n\n\n\n\n\n\n\n\n\n", n, 512, 279, 15, 15, 0x0, 0x0, 0, true)
+
+end
